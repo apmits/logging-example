@@ -1,0 +1,15 @@
+.ftpconfig*
+.ftpignore*
+.DS_Store
+.venv
+.idea
+__pycache__
+redis-stable
+celerybeat-schedule
+build
+dist
+*.spec
+*.pyc
+*.log
+*outdated*
+*without*
