@@ -34,7 +34,7 @@ class Logger():
             fmt='%(asctime)s | %(levelname).3s | %(message)s'
         )  # string format operations explanations:    https://docs.python.org/2/library/stdtypes.html#string-formatting-operations
         #       % start of formatter
-        #         () mapping key (to logging.Formatter())
+        #         () mapping key; to LogRecord attributes, see:  https://docs.python.org/3.4/library/logging.html#logrecord-attributes
         #         .(dot) acts as "trim"
         #         -(minus) is "left adjusted"
         #         3 is the number of characters to apply effect
